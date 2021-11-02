@@ -27,6 +27,13 @@ public class Principale {
         t2.add(new Fraction(2,3));
         System.out.println(somme(t2));
 
+        NDouble d1 = new NDouble(2.5);
+        NDouble d2 = new NDouble(2.3);
+        //Nombre d3 = new NDouble(0.0);
+        //d3 = (Nombre) d1.sub(d2);
+        System.out.println( d1.sub(d2));
+
+
         //System.out.println(a.add(b).toString());
         //System.out.println(v.add(w).toString());
     }

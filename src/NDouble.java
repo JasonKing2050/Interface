@@ -28,8 +28,7 @@ public class NDouble implements Nombre<NDouble>{
 
     @Override
     public String toString() {
-        return "NDouble{" +
-                "x=" + x +
-                '}';
+        return String.format("NDouble{" +
+                "x= %.2f }", x);
     }
 }
